@@ -17,3 +17,14 @@ def fib(n)
     return fib(n-1) + fib(n-2)
   end
 end
+
+
+def factorial(n)
+  if n == 0
+    return 1
+  else
+    return factorial(n) * factorial(n-1)
+  end
+end 
+
+5 = 5 * 4 * 3 * 2 * 1
