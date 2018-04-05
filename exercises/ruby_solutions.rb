@@ -1,4 +1,4 @@
-# Count to 5 using recursion
+ # Count to 5 using recursion
 
 def recursion(max, current)
   if current > max
@@ -7,7 +7,6 @@ def recursion(max, current)
     p current
   end
   recursion(max, current + 1)
-
 
 # Fibonacci
 def fib(n)
@@ -18,7 +17,7 @@ def fib(n)
   end
 end
 
-
+# Factorial
 def factorial(n)
   if n == 0
     return 1
@@ -27,4 +26,3 @@ def factorial(n)
   end
 end 
 
-5 = 5 * 4 * 3 * 2 * 1
