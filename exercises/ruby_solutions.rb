@@ -43,4 +43,18 @@ def bubble_sort(array)
   array  
 end
 
-bubble_sort([3, 5, 2, 4])
+# Insertion Sort
+def insertion_sort(array)
+  i = 0 
+  while i < array.length 
+    current = array[i]
+    j = i 
+    while j > 0 && array[j-1] > current
+      array[j] = array[j-1]
+      j -= 1 
+    end
+    array[j] = current
+    i += 1
+  end
+  array
+end
